@@ -10,4 +10,14 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+##How to run locally?
+
+1.Install Docker
+2.Install Docker Compose
+3.Run docker-compose up.
+4.Open another terminal
+5.Run curl http://localhost:3000/api/ping
+6.Open http://localhost:3001/
+7.choose register
+8.make an account
+9.Run docker exec to run codes on container
